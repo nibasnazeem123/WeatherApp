@@ -129,14 +129,55 @@ span.degrees {
   <h1 class="text-center">Weather App</h1>
   <h2 class="text-center cur-date">Friday, 2016-06-10</h2>
   <div class="row wrap">
-    
+	  
+	  
+	  
+      <input type="text" placeholder=" Enter City/Town "  style="
+                border-radius: 5px;
+                background: rgb(249, 250, 250);
+                border: 1px solid rgb(181, 189, 196);
+                font-size: 16px;
+                height: 40px;
+                line-height: 24px;
+                padding: 7px 8px;
+                color: rgb(8, 9, 10);
+                box-shadow: none;
+                :focus{
+                    background-color: #fff;
+                    border-color: #3b49df;
+                    box-shadow: 1px 1px 0 #3b49df;
+                }"
+                >
+      <button style="
+                display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                font-weight: 600;
+                color: rgb(72, 76, 122);
+                font-size: 14px;
+                height: 38px;
+                padding: 8px 24px;
+                border-radius: 50px;
+                background-image: linear-gradient(180deg,#fff,#f5f5fa);
+                box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+                transition: all .2s ease-out;
+                :hover{
+                    box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+                }
+                " type="submit">submit</button>
+	  
+	  
+	  
+	  
+	  
+	  
     <div class="col-xs-8">
       <div class="loc-wrap">
         <h1 id="loc"> </h1>
         <div id="loader"></div>
       </div>
-      <input type="text" placeholder=" enter city/town ">
-      <button type="submit">submit</button>
+    
       
       <div class="text-center cur-wrap">
         <h3 id="cur-weath" class="text-center"></h3>
